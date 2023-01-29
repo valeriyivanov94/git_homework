@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 { 
+		font-weight: normal; 
+		color: #505050; 
+		margin-top: 10px;
+	}
+
+	h2 {
+		color: #404040;
+		font-family:  Arial,Helvetica,sans-serif
+	}
+
+	h1.quote {
+		color: #7a7a7a;
+	}
+
+	h1 { font-size: 30px; line-height: 1; margin-bottom: 0.5em; }
+	h2 { font-size: 22px; margin-bottom: 1em; }
+	h3 { font-size: 19px; font-weight: bold; line-height: 1; margin-bottom: 1.25em; }
+	h4 { font-size: 15px; line-height: 1; font-weight: bold; margin-bottom: 1.25em; }
+	h5 { font-size: 13px; font-weight: bold; margin-bottom: 1.25em; }
+	h6 { font-size: 12px;  }
+
+	h1 img, h2 img, h3 img, 
+	h4 img, h5 img, h6 img {
+	  margin: 0;
+	}
+
+
+	/* ------------------------------------------------------------------- */
+	/* 2.3 Text elements */
+	/* ------------------------------------------------------------------- */  
+
+
+	p           { margin: 0 0 1.5em; }
+	p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+	p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
+
+	a:focus, 
+	a:hover     { 
+		color: #333; 
+		
+	}
+	a { 
+		color: #666; 
+		text-decoration: none; 
+		outline: none;
+	}
+
+	.more {
+		font-weight: bold;
+	}
+
+	blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+	strong      { font-weight: bold; }
+	em,dfn      { font-style: italic; }
+	dfn         { font-weight: bold; }
+	sup, sub    { line-height: 0; }
+
+	abbr, 
+	acronym     { border-bottom: 1px dotted #666; }
+	address     { margin: 0 0 1.5em; font-style: italic; }
+	del         { color:#666; }
+
+	pre 				{ margin: 1.5em 0; white-space: pre; }
+	pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+
+body {
+		background: #e2e2e2;
+		
+		margin: 20px 0;
+		padding: 0;
+		width: 100%;
+	}
+
+.wrapper {
+	height: 100%;
+}
+.main_info {
+	border: 2px solid goldenrod;
+	height: 99%;
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.main_info_1 {
+	border: 2px solid goldenrod;
+	height: 60%;
+	padding: 30px;
+}
+
+.main_info_2 {
+	border:2px solid goldenrod;
+	height: 60%;
+	padding: 30px;
+}
+
+.main_info_3 {
+	border: 2px solid goldenrod;
+	height: 60%;
+	padding: 30px;
+}

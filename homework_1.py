@@ -23,18 +23,32 @@
 #
 years = int(input("Введите стаж:"))
 zp = float(input("Введите зарплату:"))
-if years >= 1 and years < 3:
+if 0 < years < 3 and zp > 0:
     result = zp / 100 * 10 + zp
+    print("Новая зп:")
     print(result)
-elif years >= 3:
-    result = (zp / 100 * 20 + zp)
+    if result < 4000:
+        bonus = result + 1000
+        print("С учетом бонуса:")
+        print(bonus)
+    else:
+        bonus = result + 500
+        print("С учетом бонуса:")
+        print(bonus)
+elif years >= 3 and zp > 0:
+    result = zp / 100 * 20 + zp
+    print("Новая зп:")
     print(result)
-if result < 4000:
-    bonus = result + 1000
-    print(bonus)
+    if result < 4000:
+        bonus = result + 1000
+        print("С учетом бонуса:")
+        print(bonus)
+    else:
+        bonus = result + 500
+        print("С учетом бонуса:")
+        print(bonus)
 else:
-    bonus = result + 500
-    print(bonus)
+    print("Вы ввели неподходящие данные")
 
 
 
